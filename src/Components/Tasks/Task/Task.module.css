@@ -1,0 +1,66 @@
+.TaskWrapper{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    height: 50px;
+    border-bottom: 1px solid  #3b6978 ;
+    margin-left: 30px;
+    margin-right: 30px;
+    margin-top: 10px;
+
+}
+.TaskWrapper span{
+    margin-right: 10px;
+    cursor: pointer;
+}
+.check{
+    color: #99b898;
+}
+.remove{
+    color: #ff847c;
+}
+.edit{
+    color: #fff48f;
+}
+
+.check :hover{
+    color: #667e65;
+}
+.remove :hover{
+    color: #e84a5f;
+}
+.edit :hover{
+    color: #e4d86d;
+}
+
+
+
+.TaskContent{
+    width: 300px;
+    height: 40px;
+    display: inline-block;
+    font-weight: bold;
+    line-height: 30px;
+    vertical-align: middle;
+    text-align: center;
+    color: #3b6978;
+}
+.done{
+    text-decoration: line-through;
+}
+@media(max-width:500px){ 
+    .TaskWrapper{
+        justify-content: space-between;
+        padding: 10px;
+    }
+    .TaskContent{
+        width: 40vw;
+        min-width: 100px;
+        max-width: 300px;
+     
+    }
+    .TaskWrapper span:not(:last-of-type){
+        margin-right: 5px;
+    }
+  
+}

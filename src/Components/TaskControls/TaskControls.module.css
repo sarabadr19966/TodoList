@@ -1,0 +1,46 @@
+.TaskControls{
+    margin: 30px;
+    color: #ff847c;
+    font-weight: bold;
+}
+.TaskControls input{
+    background-color: white;
+    font-weight: bold;
+    color: #3b6978;
+    border-color: #3b6978;
+
+
+}
+textarea:focus, 
+textarea.form-control:focus, 
+input.form-control:focus, 
+input[type=text]:focus, 
+
+[type=text].form-control:focus {
+  box-shadow: inset 0 -1px 0 #ddd;
+  border-color: #3b6978;
+  outline: 0 none;
+  color: #3b6978;
+}
+
+.TaskControls Button{
+    color:white;
+    background-color:#3b6978;
+    outline: 0 none ;
+    border: none;
+    
+}
+.TaskControls Button:hover,.TaskControls Button:focus,.TaskControls Button:active,.TaskControls Button:visited{
+
+    outline: none;
+    box-shadow:none !important;
+    background-image: none;
+    background-color: #155455 !important;
+}
+
+@media(max-width:500px){
+    .TaskControls{
+        margin: 10px;
+    }
+}
+   

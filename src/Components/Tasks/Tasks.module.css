@@ -1,0 +1,38 @@
+.Tasks{
+    height: 250px;
+    overflow: auto;
+    padding-bottom: 20px;
+    box-sizing: border-box;
+    scroll-behavior: smooth;
+    margin-top: 20px;
+
+}
+
+/*width*/
+::-webkit-scrollbar {
+    width: 10px;
+  }
+  
+  /* Track */
+  ::-webkit-scrollbar-track {
+    background: #f1f1f1;
+  }
+  
+  /* Handle */
+  ::-webkit-scrollbar-thumb {
+    background: #888;
+  }
+  
+  /* Handle on hover */
+  ::-webkit-scrollbar-thumb:hover {
+    background: #555;
+  }
+  @media(max-width:500px){
+    .Tasks{
+      height:50vh;
+      margin-top: 30px;
+    }
+    ::-webkit-scrollbar {
+        width: 5px;
+      }
+  }

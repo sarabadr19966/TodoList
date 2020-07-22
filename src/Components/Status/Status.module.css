@@ -1,0 +1,13 @@
+.Status{
+    display: flex;
+    justify-content: space-between;
+    margin: 30px 30px 0px 30px;
+    color: #ff847c;
+    font-weight: bold;
+}
+@media (max-width:500px){
+    .Status{
+        margin: 30px 10px 0px 10px;
+
+    }
+}

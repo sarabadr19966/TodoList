@@ -1,0 +1,29 @@
+.my-modal .modal-header,.my-modal .modal-footer{
+    border: none;
+}
+
+
+.my-modal button:hover,.my-modal button:focus, .my-modal button:active, .my-modal button:visited{
+
+    outline: none;
+    box-shadow:none !important;
+    background-image: none;
+    border: none;
+    
+}
+
+.my-modal .modal-header button {
+    color: #ff847c !important;
+}
+.my-modal .modal-title{
+    color: #ff847c;
+}
+.save{
+    background-color: #688668 !important;
+    border: none !important;
+  
+}
+.cancel{
+    background-color: #ff847c !important;  
+    border: none !important;
+}

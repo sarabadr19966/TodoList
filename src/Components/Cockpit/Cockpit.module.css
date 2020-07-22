@@ -1,0 +1,12 @@
+.head{
+    text-align: center;
+    margin-bottom:10px;
+    font-style: italic;
+    color: #ff847c;
+}
+.line{
+    width: 100px;
+    height: 5px;
+    background-color:#ff847c;
+    margin: auto;
+}

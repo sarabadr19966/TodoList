@@ -7,7 +7,7 @@ const TaskControls=props=>{
   useEffect(()=>{
     document.getElementById('entertask').focus() 
 
-  })
+  },[])
    return <div className={classes.TaskControls}>
     <Form onSubmit={props.enter}>
       <Label for='entertask' >Add A New Task :</Label>
